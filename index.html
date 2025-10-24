@@ -397,7 +397,8 @@
                 pac.phase = 0;
                 updateStats();
                 paused = false;
-                q('#pause').textContent = '⏸️'; // 回到暂停图标
+                q('#pauseIcon').textContent = '⏸';
+
             }
 
             q('#pause').onclick = () => {
